@@ -1,0 +1,22 @@
+{
+  "name": "nfsecampinas",
+  "version": "1.0.0",
+  "description": "Automação para geração de nota fiscal no sistema da prefeitura de Campinas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dancorrea86/seleniumnfse.git"
+  },
+  "author": "Daniel Correa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dancorrea86/seleniumnfse/issues"
+  },
+  "homepage": "https://github.com/dancorrea86/seleniumnfse#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.2.0"
+  }
+}
