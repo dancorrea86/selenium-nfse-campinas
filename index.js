@@ -1,15 +1,14 @@
 const {Builder} = require('selenium-webdriver');
-const chrome = require('selenium-webdriver/chrome');
+const firefox = require('selenium-webdriver/firefox');
 
-(async function openChromeTest() {
+(async function openFirefoxTest() {
   try {
-    let options = new chrome.Options();
+    let options = new firefox.Options();
     let driver = await new Builder()
                 .setChromeOptions(options)
-                .forBrowser('chrome')
+                .forBrowser('firefox')
                 .build();
     await driver.get('https://www.google.com');
-    await driver.quit();
   } catch (error) {
     console.log(error)
   }
